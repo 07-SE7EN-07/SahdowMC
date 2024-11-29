@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-25 01:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2024-11-25 21:02:45 +0000",
+      "minecraft:forest": "2024-11-25 01:55:46 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-11-25 01:57:13 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3463
+}
