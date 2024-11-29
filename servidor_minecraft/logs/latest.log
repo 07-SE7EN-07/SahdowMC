@@ -96,3 +96,27 @@ Direct Download: https://get.discordsrv.com
 [08:39:39] [Server thread/INFO]: _SE7EN_[/127.238.217.255:47605] logged in with entity id 187 at ([world]-442.30000001192093, 63.5625, -431.30000001192093)
 [08:40:15] [Server thread/INFO]: _SE7EN_ lost connection: Disconnected
 [08:40:15] [Server thread/INFO]: _SE7EN_ left the game
+[08:47:55] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:chat-de-minecraft(1310409659227570176) because the bot does not have the "Manage Channels" permission
+[08:47:55] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:console(1310409686239150160) because the bot does not have the "Read Text Channels & See Voice Channels" permission
+[08:48:02] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[08:48:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[08:48:04] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.28.0
+[08:48:09] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[08:48:09] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5003ms
+[08:53:02] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username nellpastelomg
+[08:53:02] [localSession-7-2/INFO]: [Geyser-Spigot] nellpastelomg (logged in as: nellpastelomg) has connected to the Java server
+[08:53:02] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .nellpastelomg is 00000000-0000-0000-0009-01f59893a9cf
+[08:53:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .nellpastelomg joined (UUID: 00000000-0000-0000-0009-01f59893a9cf)
+[08:53:02] [Server thread/INFO]: .nellpastelomg joined the game
+[08:53:02] [Server thread/INFO]: .nellpastelomg[/127.0.0.1:0] logged in with entity id 471 at ([world]27.767282, 77.0, 64.939804)
+[08:53:52] [Server thread/INFO]: .nellpastelomg fell from a high place
+[08:55:42] [Server thread/INFO]: .nellpastelomg fell from a high place
+[08:57:28] [Server thread/INFO]: .nellpastelomg issued server command: /skin Mikecraft
