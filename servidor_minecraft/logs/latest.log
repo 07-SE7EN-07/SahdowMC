@@ -430,3 +430,16 @@ Direct Download: https://get.discordsrv.com
 [06:20:00] [Server thread/INFO]: _SE7EN_ issued server command: /plugins
 [06:20:45] [Server thread/INFO]: _SE7EN_ issued server command: /minepacks:backpack
 [06:21:40] [Server thread/INFO]: _SE7EN_ issued server command: /minepacks:backpack empty
+[06:29:01] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[06:29:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode(4004 / The account token sent with your identify payload is incorrect.)
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
+[06:29:03] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
+[06:29:03] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.28.0
+[06:29:08] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
+[06:29:08] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5003ms
