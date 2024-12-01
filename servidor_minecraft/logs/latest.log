@@ -162,3 +162,29 @@ Direct Download: https://get.discordsrv.com
 [05:58:48] [Server thread/INFO]: _SE7EN_[/127.238.217.255:45427] logged in with entity id 304 at ([world]-447.454582736022, 63.0, -434.2048437828288)
 [05:59:11] [Server thread/INFO]: _SE7EN_ issued server command: /plugins
 [06:03:31] [Server thread/INFO]: _SE7EN_ issued server command: /lagg clear
+[06:08:29] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:chat-de-minecraft(1310409659227570176) because the bot does not have the "Manage Channels" permission
+[06:08:29] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:console(1310409686239150160) because the bot does not have the "Read Text Channels & See Voice Channels" permission
+[06:09:09] [Server thread/INFO]: _SE7EN_ issued server command: /scoreboard objectives add vida health
+[06:09:09] [Server thread/INFO]: [_SE7EN_: Created new objective [vida]]
+[06:09:29] [Server thread/INFO]: _SE7EN_ issued server command: /scoreboard objectives setdisplay list vida
+[06:09:29] [Server thread/INFO]: [_SE7EN_: Set display slot list to show objective vida]
+[06:11:24] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username nellpastelomg
+[06:11:24] [localSession-7-2/INFO]: [Geyser-Spigot] nellpastelomg (logged in as: nellpastelomg) has connected to the Java server
+[06:11:25] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .nellpastelomg is 00000000-0000-0000-0009-01f59893a9cf
+[06:11:25] [Server thread/INFO]: [floodgate] Floodgate player logged in as .nellpastelomg joined (UUID: 00000000-0000-0000-0009-01f59893a9cf)
+[06:11:25] [Server thread/INFO]: .nellpastelomg joined the game
+[06:11:25] [Server thread/INFO]: .nellpastelomg[/127.0.0.1:0] logged in with entity id 2297 at ([world]35.51715, 70.0, 34.082947)
+[06:11:44] [localSession-7-2/INFO]: [Geyser-Spigot] nellpastelomg has disconnected from the Java server because of Bedrock client timed out
+[06:11:44] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .nellpastelomg disconnected
+[06:11:44] [Server thread/INFO]: .nellpastelomg lost connection: Disconnected
+[06:11:44] [Server thread/INFO]: .nellpastelomg left the game
+[06:12:01] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username nellpastelomg
+[06:12:01] [localSession-7-3/INFO]: [Geyser-Spigot] nellpastelomg (logged in as: nellpastelomg) has connected to the Java server
+[06:12:01] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .nellpastelomg is 00000000-0000-0000-0009-01f59893a9cf
+[06:12:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .nellpastelomg joined (UUID: 00000000-0000-0000-0009-01f59893a9cf)
+[06:12:01] [Server thread/INFO]: .nellpastelomg joined the game
+[06:12:01] [Server thread/INFO]: .nellpastelomg[/127.0.0.1:0] logged in with entity id 2494 at ([world]35.51715, 70.0, 34.082947)
+[06:12:19] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .nellpastelomg disconnected
+[06:12:19] [localSession-7-3/INFO]: [Geyser-Spigot] nellpastelomg has disconnected from the Java server because of Bedrock client disconnected
+[06:12:19] [Server thread/INFO]: .nellpastelomg lost connection: Disconnected
+[06:12:19] [Server thread/INFO]: .nellpastelomg left the game
