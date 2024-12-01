@@ -1,58 +1,127 @@
-[08:37:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:37:39] [ServerMain/INFO]: Loaded 7 recipes
-[08:37:40] [Server thread/INFO]: Starting minecraft server version 1.20
-[08:37:40] [Server thread/INFO]: Loading properties
-[08:37:40] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[08:37:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:37:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:37:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[05:58:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:58:17] [ServerMain/INFO]: Loaded 7 recipes
+[05:58:17] [Server thread/INFO]: Starting minecraft server version 1.20
+[05:58:17] [Server thread/INFO]: Loading properties
+[05:58:18] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[05:58:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:58:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:58:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[08:37:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[08:37:41] [Server thread/INFO]: Default game type: SURVIVAL
-[08:37:41] [Server thread/INFO]: Generating keypair
-[08:37:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:37:41] [Server thread/INFO]: Using epoll channel type
-[08:37:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[08:37:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[08:37:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[08:37:44] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[08:37:44] [Server thread/INFO]: [floodgate] Took 989ms to boot Floodgate
-[08:37:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[08:37:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[08:37:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[08:37:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[08:37:45] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.28.0
-[08:37:45] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[08:37:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
-[08:37:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[08:37:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[08:37:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[08:37:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:37:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[08:37:46] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[08:37:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
-[08:37:47] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[08:37:47] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[08:37:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:37:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:37:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:37:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:37:47] [Server thread/INFO]: Preparing level "world"
-[08:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:37:48] [Server thread/INFO]: Time elapsed: 544 ms
-[08:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:37:48] [Server thread/INFO]: Time elapsed: 114 ms
-[08:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:37:48] [Server thread/INFO]: Time elapsed: 77 ms
-[08:37:48] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[08:37:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[08:37:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[08:37:51] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.28.0
-[08:37:51] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[08:37:51] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[08:37:51] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
-[08:37:53] [pool-24-thread-1/WARN]: [DiscordSRV] 
+[05:58:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[05:58:18] [Server thread/INFO]: Default game type: SURVIVAL
+[05:58:18] [Server thread/INFO]: Generating keypair
+[05:58:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:58:18] [Server thread/INFO]: Using epoll channel type
+[05:58:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:58:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:58:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[05:58:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[05:58:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:58:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:58:20] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[05:58:20] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[05:58:21] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:58:21] [Server thread/INFO]: [floodgate] Took 551ms to boot Floodgate
+[05:58:21] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.14.0
+[05:58:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_20_R1! Trying to find NMS support
+[05:58:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[05:58:21] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[05:58:21] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[05:58:21] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.28.0
+[05:58:21] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[05:58:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[05:58:21] [Thread-8/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[05:58:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:58:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:58:22] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[05:58:22] [Server thread/INFO]: [BetterRevive] Loading server plugin BetterRevive v0.9.1-BETA
+[05:58:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:58:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[05:58:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[05:58:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:58:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
+[05:58:23] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:58:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:58:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:58:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:58:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:58:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:58:23] [Server thread/INFO]: Preparing level "world"
+[05:58:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:58:24] [Server thread/INFO]: Time elapsed: 351 ms
+[05:58:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:58:24] [Server thread/INFO]: Time elapsed: 74 ms
+[05:58:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:58:24] [Server thread/INFO]: Time elapsed: 84 ms
+[05:58:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[05:58:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[05:58:24] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[05:58:25] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.0
+[05:58:25] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[05:58:25] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[05:58:25] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[05:58:25] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[05:58:25] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[05:58:25] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[05:58:25] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[05:58:25] [Server thread/INFO]: [ClearLag] Loading modules...
+[05:58:25] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[05:58:25] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[05:58:25] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[05:58:25] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[05:58:25] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[05:58:25] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.28.0
+[05:58:25] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[05:58:25] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[05:58:25] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[05:58:26] [Thread-10/INFO]: [ClearLag] No updates found!
+[05:58:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[05:58:26] [Server thread/INFO]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
+[05:58:26] [Server thread/INFO]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
+[05:58:26] [Server thread/INFO]: [BetterRevive] Hex colors are available! Ready for RGB..
+[05:58:26] [Server thread/INFO]: [BetterRevive] Old constructor for HoverEvent found! Using it..
+[05:58:26] [Server thread/INFO]: [BetterRevive] New sendTitle method found! Using it..
+[05:58:26] [Server thread/INFO]: [BetterRevive] New setUnbreakable method found! Using it..
+[05:58:26] [Server thread/INFO]: [BetterRevive] New isUnbreakable method found! Using it..
+[05:58:26] [Server thread/INFO]:   ___      _   _           ___         _         
+[05:58:26] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ _| _ \_____ _(_)_ _____ 
+[05:58:26] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_|   / -_) V / \ V / -_)
+[05:58:26] [Server thread/INFO]:  |___/\___|\__|\__\___|_| |_|_\___|\_/|_|\_/\___|
+[05:58:26] [Server thread/INFO]: 
+[05:58:26] [Server thread/INFO]:    Running plugin BetterRevive v0.9.1-BETA (v2_0)
+[05:58:26] [Server thread/INFO]:    Server running Paper version git-Paper-17 (MC: 1.20)
+[05:58:26] [Server thread/INFO]:    (Implementing API version git-Paper-17 (MC: 1.20))
+[05:58:26] [Server thread/INFO]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ❤)
+[05:58:26] [Server thread/INFO]:    If you loved the plugin consider leaving a review and mentioning your server IP in it!
+[05:58:26] [Server thread/INFO]: 
+[05:58:26] [Server thread/INFO]: ==============================================================================================
+[05:58:26] [Server thread/INFO]: [BetterRevive] This is not a error! This is just a warning to keep in mind if you have issues!
+[05:58:26] [Server thread/INFO]: [BetterRevive] You are using a Paper fork (Paper). This plugin was made for Spigot
+[05:58:26] [Server thread/INFO]: [BetterRevive] but was (in most cases) tested with different builds of Paper and Purpur.
+[05:58:26] [Server thread/INFO]: [BetterRevive] Spigot and forks API are really similar and should be compatible, however there are
+[05:58:26] [Server thread/INFO]: [BetterRevive] some cases in which they aren't compatible. If you have issues report them to the
+[05:58:26] [Server thread/INFO]: [BetterRevive] developer instead of reviewing 1 star. Thanks in advanced!
+[05:58:26] [Server thread/INFO]: [BetterRevive] Join us in our official support server on alonsoaliaga.com/discord
+[05:58:26] [Server thread/INFO]: ==============================================================================================
+[05:58:26] [Server thread/INFO]: 
+[05:58:26] [Server thread/INFO]: [BetterRevive] BungeeCord action bar available. Hooking..
+[05:58:26] [Server thread/INFO]: [BetterRevive] ProtocolLib found! Checking..
+[05:58:26] [Server thread/INFO]: [Auto-update] Configuration config.yml is up-to-date!
+[05:58:26] [Server thread/INFO]: [BetterRevive] Factions hook is enabled but couldn't find any supported faction plugin were found. Disabling hook..
+[05:58:26] [Server thread/INFO]: [BetterRevive] Finish off feature has been enabled! Players can finish off other player!
+[05:58:26] [Server thread/INFO]: [BetterRevive] Finish off health: 20 | Finish off damage multiplier: 0.5
+[05:58:26] [Server thread/INFO]: [BetterRevive] DamageCause for finish off is empty! All damage cause will be allowed to finish off players. (Includes DROWING, FIRE, LAVA, etc)
+[05:58:26] [Server thread/INFO]: [BetterRevive] Bleeding mode is 0! Plugin will select the best option for your server!
+[05:58:26] [Server thread/INFO]: [BetterRevive] Server version is v2_0. Players will look like swimming while bleeding! (Mode 2)
+[05:58:26] [Server thread/INFO]: [BetterRevive] Loaded 1 bleeding effects.
+[05:58:26] [Server thread/INFO]: [BetterRevive] Loaded 1 revived effect.
+[05:58:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:58:27] [Server thread/INFO]: [Geyser-Spigot] 
+[05:58:27] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
+[05:58:27] [Server thread/INFO]: [Geyser-Spigot] 
+[05:58:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:58:27] [pool-25-thread-1/WARN]: [DiscordSRV] 
 
 The current build of DiscordSRV is outdated by 29 commits! Get the latest build at your favorite distribution center.
 
@@ -60,63 +129,36 @@ Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
 Github: https://github.com/DiscordSRV/DiscordSRV/releases
 Direct Download: https://get.discordsrv.com
 
-[08:37:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[08:37:53] [Server thread/INFO]: [Geyser-Spigot] 
-[08:37:53] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b716 (git-master-2ebce9c)
-[08:37:53] [Server thread/INFO]: [Geyser-Spigot] 
-[08:37:53] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[08:37:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[08:37:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[08:37:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[08:37:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console(1310409686239150160)
-[08:37:55] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:chat-de-minecraft(1310409659227570176) because the bot does not have the "Manage Channels" permission
-[08:37:55] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:console(1310409686239150160) because the bot does not have the "Read Text Channels & See Voice Channels" permission
-[08:37:59] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1215
-[08:37:59] [Server thread/INFO]: [Geyser-Spigot] Done (5.687s)! Run /geyser help for help!
-[08:37:59] [Server thread/INFO]: Running delayed init tasks
-[08:37:59] [Server thread/INFO]: Done (19.281s)! For help, type "help"
-[08:37:59] [Server thread/INFO]: Timings Reset
-[08:37:59] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.4.4
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: dc501c7
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[08:37:59] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[08:37:59] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
-[08:39:36] [User Authenticator #0/INFO]: UUID of player _SE7EN_ is 42b1f728-d51b-38ae-9833-6f50341cd819
-[08:39:39] [Server thread/INFO]: _SE7EN_ joined the game
-[08:39:39] [Server thread/INFO]: _SE7EN_[/127.238.217.255:47605] logged in with entity id 187 at ([world]-442.30000001192093, 63.5625, -431.30000001192093)
-[08:40:15] [Server thread/INFO]: _SE7EN_ lost connection: Disconnected
-[08:40:15] [Server thread/INFO]: _SE7EN_ left the game
-[08:47:55] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:chat-de-minecraft(1310409659227570176) because the bot does not have the "Manage Channels" permission
-[08:47:55] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:console(1310409686239150160) because the bot does not have the "Read Text Channels & See Voice Channels" permission
-[08:48:02] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
-[08:48:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] [JDA] WebSocket connection was closed and cannot be recovered due to identification issues
-CloseCode(4004 / The account token sent with your identify payload is incorrect.)
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  DiscordSRV was disconnected from Discord because:
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  The bot token is invalid
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV]  
-[08:48:04] [JDA MainWS-WriteThread/ERROR]: [DiscordSRV] ===================================================
-[08:48:04] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.28.0
-[08:48:09] [DiscordSRV - Shutdown/WARN]: [DiscordSRV] JDA took too long to shut down, skipping
-[08:48:09] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 5003ms
-[08:53:02] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username nellpastelomg
-[08:53:02] [localSession-7-2/INFO]: [Geyser-Spigot] nellpastelomg (logged in as: nellpastelomg) has connected to the Java server
-[08:53:02] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .nellpastelomg is 00000000-0000-0000-0009-01f59893a9cf
-[08:53:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .nellpastelomg joined (UUID: 00000000-0000-0000-0009-01f59893a9cf)
-[08:53:02] [Server thread/INFO]: .nellpastelomg joined the game
-[08:53:02] [Server thread/INFO]: .nellpastelomg[/127.0.0.1:0] logged in with entity id 471 at ([world]27.767282, 77.0, 64.939804)
-[08:53:52] [Server thread/INFO]: .nellpastelomg fell from a high place
-[08:55:42] [Server thread/INFO]: .nellpastelomg fell from a high place
-[08:57:28] [Server thread/INFO]: .nellpastelomg issued server command: /skin Mikecraft
+[05:58:28] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[05:58:28] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[05:58:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[05:58:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:console(1310409686239150160)
+[05:58:29] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:chat-de-minecraft(1310409659227570176) because the bot does not have the "Manage Channels" permission
+[05:58:29] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:console(1310409686239150160) because the bot does not have the "Read Text Channels & See Voice Channels" permission
+[05:58:34] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1215
+[05:58:34] [Server thread/INFO]: [Geyser-Spigot] Done (7.44s)! Run /geyser help for help!
+[05:58:34] [Server thread/INFO]: Running delayed init tasks
+[05:58:34] [Craft Scheduler Thread - 0 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:58:34] [Server thread/INFO]: Done (16.772s)! For help, type "help"
+[05:58:34] [Server thread/INFO]: Timings Reset
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.4.4
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: dc501c7
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:58:34] [Craft Scheduler Thread - 3 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:58:34] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[05:58:36] [Craft Scheduler Thread - 0 - BetterRevive/INFO]: [BetterRevive] Checking for updates...
+[05:58:36] [Craft Scheduler Thread - 0 - BetterRevive/INFO]: [BetterRevive] Plugin up-to-date! You have the latest version!
+[05:58:45] [User Authenticator #0/INFO]: UUID of player _SE7EN_ is 42b1f728-d51b-38ae-9833-6f50341cd819
+[05:58:48] [Server thread/INFO]: _SE7EN_ joined the game
+[05:58:48] [Server thread/INFO]: _SE7EN_[/127.238.217.255:45427] logged in with entity id 304 at ([world]-447.454582736022, 63.0, -434.2048437828288)
+[05:59:11] [Server thread/INFO]: _SE7EN_ issued server command: /plugins
+[06:03:31] [Server thread/INFO]: _SE7EN_ issued server command: /lagg clear
