@@ -173,3 +173,7 @@ Direct Download: https://get.discordsrv.com
 [00:34:45] [Server thread/INFO]: _SE7EN_ joined the game
 [00:34:45] [Server thread/INFO]: _SE7EN_[/127.238.217.255:38033] logged in with entity id 175 at ([world]-446.61657056264187, 63.0, -432.2865344544308)
 [00:36:31] [Async Chat Thread - #1/INFO]: [Not Secure] <_SE7EN_> a mimir
+[00:42:53] [Server thread/INFO]: _SE7EN_ has made the advancement [A Seedy Place]
+[00:42:56] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:chat-de-minecraft(1310409659227570176) because the bot does not have the "Manage Channels" permission
+[00:42:56] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:console(1310409686239150160) because the bot does not have the "Read Text Channels & See Voice Channels" permission
+[00:49:31] [Async Chat Thread - #2/INFO]: [Not Secure] <_SE7EN_> a mimir
